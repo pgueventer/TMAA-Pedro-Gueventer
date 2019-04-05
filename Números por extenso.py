@@ -1,4 +1,9 @@
-import time
+'''
+UFRJ - Universidade Federal do Rio de Janeiro
+IM - Instituto de Matemática
+Pedro Feteira Gueventer - 119.017.382
+'''
+print("Programa para retornar números por extenso de até 5 algarismos")
 def main():
     start = time.time()
     unidades = ["", "um", "dois", "três", "quatro","cinco", "seis", "sete", "oito", "nove"]
@@ -68,8 +73,7 @@ def main():
         print(escrito[3:])
     else:
         print(escrito)
-    end = time.time()
-    print(end - start)
+    
 main()
     
             
