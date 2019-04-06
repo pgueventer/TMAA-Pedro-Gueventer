@@ -1,6 +1,10 @@
-#UFRJ
+'''
+UFRJ - Universidade Federal do Rio de Janeiro
 
-#Pedro Feteira Gueventer
+IM - Instituto de Matematica
+
+Pedro Feteira Gueventer - 119.017.382
+'''
 
 
 print ("Calculadora de Equações do Segundo Grau no formato de ax^2 + bx +c")
