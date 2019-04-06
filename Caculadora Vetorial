@@ -9,6 +9,7 @@ Diego Rodrigues Nascimento - 119.106.458
 
 Gabriel Pedrosa Dória - 119.065.076
 '''
+print("Calculadora Vetorial")
 n=3
 produto_interno=0
 norma1=0
