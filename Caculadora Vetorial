@@ -84,7 +84,7 @@ def main():
                   if operação == 7:
                       mem_comblin=0
                       Comb()
-         elif opcao == 2:
+         if opcao == 2:
              print("\n\t1-Alterar dimensão")
              print("\t2-Memorizar um resultado para utilizar em próximo cálculo")
              print("\t3-Acumular resultado vetorial ")
@@ -94,7 +94,6 @@ def main():
              if operacao == 1:
                  dimensão()
              if operacao == 2:
-                 
                  print("\n\tNessa seção você pode pedir para memorizar o produto interno e a norma para que sejam usados no cálculo de ângulo entre dois vetores")
                  
                  mem_produto_interno = int(input("\n\tDigite 1 para memorizar o produto interno ou 0 para não memorizar : "))
@@ -164,6 +163,8 @@ def main():
              
              if operacao ==5:
                  main()
+         if opcao ==3:
+                  pass
 def dimensão():
     global n
     n = int(input("\n\tQual a dimensão que você deseja?"))
